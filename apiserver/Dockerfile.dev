@@ -38,6 +38,8 @@ RUN chmod -R +x /code/bin
 RUN chmod +x ./bin/*
 RUN chmod -R 777 /code
 
+USER root
+
 # Expose container port and run entry point script
 EXPOSE 8000
 
