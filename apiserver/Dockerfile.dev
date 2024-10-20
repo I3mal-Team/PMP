@@ -36,7 +36,7 @@ COPY . .
 RUN mkdir -p /code/plane/logs
 RUN chmod -R +x /code/bin
 RUN chmod -R 777 /code
-RUN chmod +x ./bin/docker-entrypoint-migrator.sh
+RUN chmod +x ./bin/docker-entrypoint-api-local.sh
 
 # Expose container port and run entry point script
 EXPOSE 8000
