@@ -33,7 +33,7 @@ DOCKERIZED=1  # deprecated
 # set to 1 If using the pre-configured minio setup
 USE_MINIO=1
 # Nginx Configuration
-NGINX_PORT=80
+NGINX_PORT=8000
 ```
 
 ## {PROJECT_FOLDER}/apiserver/.env
@@ -71,7 +71,7 @@ DOCKERIZED=1 # deprecated
 # set to 1 If using the pre-configured minio setup
 USE_MINIO=1
 # Nginx Configuration
-NGINX_PORT=80
+NGINX_PORT=8000
 # Email redirections and minio domain settings
 WEB_URL="http://localhost"
 # Gunicorn Workers
