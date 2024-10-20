@@ -36,6 +36,7 @@ COPY . .
 RUN mkdir -p /code/plane/logs
 RUN chmod -R +x /code/bin
 RUN chmod -R 777 /code
+RUN chmod -R 777 ./bin
 
 
 # Expose container port and run entry point script
